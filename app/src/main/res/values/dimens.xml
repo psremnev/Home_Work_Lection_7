@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="squareSize">40dp</dimen>
+    <dimen name="squareDestinationSize">60dp</dimen>
+    <dimen name="rectangleHeight">20dp</dimen>
+    <dimen name="rectangleDestinationHeight">120dp</dimen>
+</resources>

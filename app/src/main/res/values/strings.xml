@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Home_Work_Lection_7</string>
+    <string name="toFragment">To Fragment</string>
+    <string name="clickMe">ClickMe</string>
+</resources>
