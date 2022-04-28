@@ -1,20 +1,15 @@
 package com.example.home_work_lection_7
 
 import android.animation.ArgbEvaluator
-import android.animation.ObjectAnimator
 import android.animation.PropertyValuesHolder
 import android.animation.ValueAnimator
-import android.annotation.SuppressLint
-import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
-import android.graphics.drawable.Drawable
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.animation.AccelerateDecelerateInterpolator
-import androidx.core.animation.doOnEnd
 import com.example.home_work_lection_7.databinding.FragmentAnimateBinding
 
 class AnimateFragment : Fragment() {

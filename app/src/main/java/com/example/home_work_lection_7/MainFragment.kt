@@ -9,20 +9,20 @@ import androidx.navigation.fragment.findNavController
 import com.example.home_work_lection_7.databinding.FragmentMainBinding
 
 class MainFragment : Fragment() {
-    var binding: FragmentMainBinding? = null
+    private lateinit var binding: FragmentMainBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View {
         binding = FragmentMainBinding.inflate(inflater)
-        return binding!!.root
+        return binding.root
     }
 
     override fun onStart() {
         super.onStart()
 
-        binding!!.toFragment.setOnClickListener {
+        binding.toFragment.setOnClickListener {
             findNavController().navigate(R.id.action_mainFragment_to_animateFragment)
         }
     }
